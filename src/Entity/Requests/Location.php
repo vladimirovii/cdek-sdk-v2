@@ -84,6 +84,11 @@ class Location extends Source
      * @var int|null
      */
     protected $page;
+    
+    /**
+     * @var array|string[]
+     */
+    protected $pattern;
 
     /**
      * Экспресс-метод установки кода локации.
